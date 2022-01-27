@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MY Etowa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="all_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus cursus lorem, nec hendrerit est varius at. In ultricies auctor nisi. Donec non bibendum nisi. Suspendisse vulputate ut eros accumsan interdum. Nulla convallis sit amet ipsum mattis consectetur. Donec consequat massa vitae erat elementum mollis. Aenean auctor libero eget tellus dignissim fringilla. Aenean sit amet sollicitudin nulla.
+Quisque gravida velit vel quam dignissim, nec lobortis ex mollis. Curabitur tempor suscipit semper. Nunc eget mollis massa. Curabitur lacinia neque eleifend suscipit egestas. Praesent rhoncus tincidunt sodales. Maecenas at magna mi. Nam scelerisque sodales posuere. Morbi blandit blandit magna, id feugiat ipsum ultricies vel. Donec a ipsum metus. Integer sagittis massa at ex convallis facilisis. Morbi accumsan odio quis condimentum tempus. Duis a erat rhoncus, tincidunt enim sed, commodo sem. Duis vel neque a enim tincidunt placerat eu vitae nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent feugiat justo mauris, ut lobortis purus elementum et. Nam suscipit orci elementum, suscipit risus bibendum, lobortis sapien.
+Nunc maximus ullamcorper erat, eu rutrum erat sodales vitae. Cras bibendum ctus, vestibulum vitae magna nec, aliquam maximus nibh. Phasellus ultricies placerat libero sit amet consectetur. Maecenas ornare, erat eu facilisis euismod, tellus elit pulvinar est, a viverra massa massa a metus.</string>
+
+    <string name="username_validation_false">Username required</string>
+    <string name="email_validation_false"> Email required</string>
+    <string name="email_validation_false2">this is not an email format</string>
+    <string name="password_validation_false">Password required</string>
+    <string name="password_validation_false2">Password length is less than 6 characters</string>
+    <string name="badge_validation_false">Badge required</string>
+    <string name="fullname_validation_false">Fullname required</string>
+    <string name="devisi_validation_false">Devisi required</string>
+    <string name="pangkat_validation_false">Pangkat required</string>
+    <string name="alamat_validation_false">Address required</string>
+    <string name="stts_validation_false">STTS required</string>
+    <string name="phone_validation_false">Number phone required</string>
+
+    <string name="badge">badge</string>
+    <string name="fullname">Fullname</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="devisi">Devisi</string>
+    <string name="pangkat">Pangkat</string>
+    <string name="stts">Stts</string>
+    <string name="alamat">Address</string>
+    <string name="username_email_validation_false">Username or Email required</string>
+    <string name="text_validation_false">Is null</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+</resources>

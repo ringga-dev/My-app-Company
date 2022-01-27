@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_margin="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Name "
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Badge "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/badge"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Plan "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/plan"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Destination "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/destination"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1">
+
+                </TextView>
+
+            </TableRow>
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Form option "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/stts_form"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1">
+
+                </TextView>
+
+            </TableRow>
+
+        </TableLayout>
+        <Button
+            android:id="@+id/btn_cek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loign_shape"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Preview"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

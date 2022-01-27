@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index"
+    tools:context=".ui.auth.AuthActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/container"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="8sp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:text="Login"
+            android:paddingHorizontal="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:background="@drawable/bg_shape_login_l" />
+        <Button
+            android:id="@+id/btn_cek_conetion"
+            android:text="Coneksi"
+            android:paddingHorizontal="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:background="@drawable/bg_shape_center" />
+        <Button
+            android:id="@+id/btn_register"
+            android:text="Register"
+            android:paddingHorizontal="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:background="@drawable/bg_shape_login_r" />
+    </LinearLayout>
+
+</LinearLayout>

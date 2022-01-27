@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.DitailDataActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/neon"
+            android:gravity="center"
+            android:text="Ditail"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp">
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Name "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Badge "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/badge"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Destination "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/destination"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Form option "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/stts_form"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Plan "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/plan"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="End Time "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/end_time"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Remarks "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/remarks"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="From "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/from"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="To "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/to"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Approved By "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/approved_by"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:text="Update "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/update"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dip"
+                    android:layout_weight="1"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_approve"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/loign_shape"
+                android:text="Approve" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/loign_shape"
+                android:text="Un Approve" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
